@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>control</class>
+ <widget class="QWidget" name="control">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>485</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(85, 170, 255)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 85, 0)</string>
+     </property>
+     <property name="title">
+      <string>推进器</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="forward">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>前进</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stop">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>停</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="backward">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>后退</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 85, 0)</string>
+     </property>
+     <property name="title">
+      <string>挡位</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="One">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>1档</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Two">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>二档</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Zero">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0);
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>复位</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(255, 85, 0)</string>
+     </property>
+     <property name="title">
+      <string>控制</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="2" column="1">
+          <widget class="QPushButton" name="pause">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>停止</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="right">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>右转</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPushButton" name="go">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>波动前进</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QPushButton" name="back">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>波动后退</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="left">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>左转</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="beat">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+color:rgb(255, 255, 255);
+background-color:rgb(0, 85, 0);
+border: 2px solid #8f8f91;
+border-radius:6px;
+padding:5px 10px;
+}
+QPushButton:hover{
+background-color:rgb(0, 0, 0)
+}
+QPushButton:disabled{
+background-color:gray;
+color:lightgray;
+}
+QPushButton:pressed{
+border-style:inset;
+padding-top:6px;
+padding-left:11px;
+}</string>
+           </property>
+           <property name="text">
+            <string>拍水</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
